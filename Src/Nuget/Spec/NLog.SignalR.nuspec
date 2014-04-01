@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>NLog.SignalR</id>
+        <version>1.0.0</version>
+        <authors>Kirk Chen</authors>
+        <projectUrl>https://github.com/kirkchen/NLog.SignalR</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>NLog SignalR Target</description>
+        <tags>nlog signalr</tags>
+        <dependencies>
+            <dependency id="Microsoft.AspNet.SignalR.Core" version="2.0.3" />
+            <dependency id="NLog" version="2.1.0" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="..\..\NLog.SignalR\bin\Debug\NLog.SignalR.dll" target="lib\NLog.SignalR.dll" />
+    </files>
+</package>
